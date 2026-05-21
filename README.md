@@ -7,8 +7,9 @@ I used Android Platform Tools from Google and a USB cable to connect my Tolino E
 The device was running an  Tolino firmware 16 on Android 4.4.2, so I used the Tolino debug menu code for that firmware generation to enable debug mode from the search field.
 
 I installed the APKs through ADB,  (run in cmd, you need to be in the platform-tools root with the apks, example: C:\Users\.....\platform-tools-latest-windows\platform-tools):
-[https://developer.android.com/tools/releases/platform-tools](url)
-[https://github.com/koreader/koreader](url)
+
+- https://developer.android.com/tools/releases/platform-tools
+- https://github.com/koreader/koreader
 
 ```bash
 adb devices
