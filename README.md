@@ -8,10 +8,12 @@ The device was running an  Tolino firmware 16 on Android 4.4.2, so I used the To
 
 I installed the APKs through ADB,  (run in cmd, you need to be in the platform-tools root with the apks, example: C:\Users\.....\platform-tools-latest-windows\platform-tools):
 [https://developer.android.com/tools/releases/platform-tools](url)
+[https://github.com/koreader/koreader](url)
+
 ```bash
 adb devices
 adb install "com.teslacoilsw.launcher_4.2.2-42200_minAPI16(nodpi).apk" (seached on the web)
-adb install "koreader-android-arm-<version>.apk" (I used latest)
+adb install "koreader-android-arm-v2026.03.apk" (I used latest)
 ```
 
 Once the APKs were installed, I rebooted the Tolino and selected Nova Launcher as the default Home app.
